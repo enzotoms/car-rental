@@ -20,8 +20,6 @@ import { motion } from 'framer-motion';
 // variant
 import { fadeIn } from '../variants';
 
-// link
-import Link from 'next/link';
 
 const About = () => {
   const { ref, inView } = useInView({
@@ -117,7 +115,7 @@ const About = () => {
                   </div>
                   {/* button */}
                 </motion.div>
-                <Link href='/CarStore'>
+            
                 <motion.button
                   variants={fadeIn('up', 1)}
                   initial="hidden"
@@ -127,7 +125,7 @@ const About = () => {
                    uppercase font-medium text-white tracking-[2px] text-[13px] max-w-[184px] '>
                     View More Cars
                   </motion.button>
-                  </Link>
+                  
             </div>
           </div>
         </div>
