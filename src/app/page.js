@@ -8,7 +8,6 @@ import Testimonial from "./components/Testimonial";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import BackToTopBtn from "./components/BackToTopBtn";
-import CarStore from "./components/CarStore";
 
 
 export default function Home() {
