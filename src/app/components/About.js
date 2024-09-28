@@ -9,7 +9,7 @@ import { GiHomeGarage } from "react-icons/gi";
 import { GiAutoRepair } from "react-icons/gi";
 
 // react count-up
-import CountUp from 'react-countUp';
+import CountUp from 'react-countup';
 
 // react intersection observer
 import { useInView } from 'react-intersection-observer';
